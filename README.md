@@ -4,7 +4,6 @@ A simple and clean product management application built for a small online shop.
 ## Tech Stack
 **Backend:**
 - Go (Golang)
-- GORM (ORM)
 - PostgreSQL (Containerized via Docker)
 
 **Frontend:**
@@ -41,7 +40,7 @@ docker-compose up -d
 ```
 
 2. Run the Backend Server
-Once the database is up, run the Go server.
+Once the database is up, run the Go server. Ensure you are inside the `backend/` folder before running the commands.
 ```bash
 go run main.go
 ```
